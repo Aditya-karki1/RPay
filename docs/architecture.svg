@@ -1,0 +1,231 @@
+<svg viewBox="0 0 1140 1010" xmlns="http://www.w3.org/2000/svg"
+     font-family="system-ui, sans-serif" style="background:#070908">
+
+  <defs>
+    <marker id="a-green"   markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0.5 L0,6.5 L7,3.5Z" fill="#C8FF00"/></marker>
+    <marker id="a-blue"    markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0.5 L0,6.5 L7,3.5Z" fill="#60A5FA"/></marker>
+    <marker id="a-purple"  markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0.5 L0,6.5 L7,3.5Z" fill="#A78BFA"/></marker>
+    <marker id="a-amber"   markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0.5 L0,6.5 L7,3.5Z" fill="#FBBF24"/></marker>
+    <marker id="a-emerald" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0.5 L0,6.5 L7,3.5Z" fill="#34D399"/></marker>
+    <marker id="a-red"     markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0.5 L0,6.5 L7,3.5Z" fill="#F87171"/></marker>
+    <marker id="a-white"   markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0.5 L0,6.5 L7,3.5Z" fill="#D0D8D0"/></marker>
+    <marker id="a-indigo"  markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0.5 L0,6.5 L7,3.5Z" fill="#818CF8"/></marker>
+    <marker id="a-lime"    markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0.5 L0,6.5 L7,3.5Z" fill="#C8FF00"/></marker>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Canvas background -->
+  <rect width="1140" height="1010" fill="#070908"/>
+
+  <!-- Grid dots -->
+  <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="0.8" fill="#1C201C" opacity="0.6"/>
+  </pattern>
+  <rect width="1140" height="1010" fill="url(#dots)" opacity="0.5"/>
+
+  <!-- Title -->
+  <text x="30" y="30" font-size="11" font-weight="500" letter-spacing="0.22em" fill="#C8FF00" font-family="monospace">DIS:TRICT</text>
+  <text x="156" y="30" font-size="10" fill="#728072" font-family="monospace">System Architecture · AI Growth &amp; Agentic Commerce</text>
+
+  <!-- ═══ NODES ═══ -->
+
+  <!-- 1. AI CORE -->
+  <rect x="380" y="44" width="240" height="72" rx="9" fill="#0B0B1C" stroke="#818CF8" stroke-width="1.5" filter="url(#glow)"/>
+  <text x="500" y="70" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="500" letter-spacing="0.14em" fill="#818CF8">AI CORE — LLM</text>
+  <text x="500" y="88" text-anchor="middle" font-size="11" font-weight="600" fill="#EDF2ED">District Intelligence Engine</text>
+  <text x="500" y="104" text-anchor="middle" font-size="9.5" fill="#728072">Trained on merchant &amp; customer behaviour</text>
+
+  <!-- 2. CUSTOMER -->
+  <rect x="38" y="152" width="165" height="66" rx="8" fill="#03091A" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="120" y="179" text-anchor="middle" font-size="13" font-weight="700" fill="#60A5FA">Customer</text>
+  <text x="120" y="197" text-anchor="middle" font-size="9.5" fill="#728072">Browses · Buys · Returns</text>
+
+  <!-- GREEN CREDITS -->
+  <rect x="26" y="292" width="188" height="100" rx="8" fill="#0C1400" stroke="#C8FF00" stroke-width="1.5"/>
+  <text x="120" y="314" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="0.12em" fill="#C8FF00">GREEN CREDITS</text>
+  <text x="120" y="333" text-anchor="middle" font-size="13" font-weight="700" fill="#EDF2ED">Loyalty Engine</text>
+  <text x="120" y="350" text-anchor="middle" font-size="9.5" fill="#728072">Earn on purchase · Upsell bonus</text>
+  <text x="120" y="365" text-anchor="middle" font-size="9.5" fill="#728072">First-buy bonus (+50 GC)</text>
+  <text x="120" y="380" text-anchor="middle" font-size="9" fill="#C8FF00" opacity="0.75">Redeem at checkout (max 20% off)</text>
+
+  <!-- 3. SMART CART + RETURNS -->
+  <rect x="364" y="142" width="272" height="84" rx="8" fill="#03091A" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="500" y="165" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="0.12em" fill="#60A5FA">ECOMMERCE LAYER</text>
+  <text x="500" y="185" text-anchor="middle" font-size="13" font-weight="700" fill="#EDF2ED">Smart Cart  ·  Smart Returns</text>
+  <text x="500" y="203" text-anchor="middle" font-size="9.5" fill="#728072">AI upsell suggestions · Camera scan · 7-day return window</text>
+  <text x="500" y="218" text-anchor="middle" font-size="9" fill="#728072">Dynamic pricing via campaigns · GC coupon unlock</text>
+
+  <!-- 4. MERCHANT DASHBOARD -->
+  <rect x="800" y="80" width="228" height="314" rx="9" fill="#0D0F14" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="914" y="106" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="0.12em" fill="#94A3B8">MERCHANT DASHBOARD</text>
+  <line x1="814" y1="116" x2="1014" y2="116" stroke="#1C201C" stroke-width="0.8"/>
+  <text x="818" y="133" font-size="10" fill="#728072">◈  Sales &amp; Revenue Overview</text>
+  <text x="818" y="151" font-size="10" fill="#728072">◈  Orders Management</text>
+  <text x="818" y="169" font-size="10" fill="#728072">◈  Returns + AI Image Grade</text>
+  <text x="818" y="187" font-size="10" fill="#728072">◈  Nearest Hub Access (7 hubs)</text>
+  <text x="818" y="205" font-size="10" fill="#728072">◈  Product Listings</text>
+  <text x="818" y="223" font-size="10" fill="#728072">◈  Audit Trail</text>
+  <text x="818" y="241" font-size="10" fill="#C8FF00" opacity="0.85">◈  Green Credits Ledger</text>
+  <line x1="814" y1="234" x2="1014" y2="234" stroke="#1C201C" stroke-width="0.8"/>
+  <rect x="813" y="243" width="202" height="72" rx="5" fill="#0B0B1C" stroke="#818CF8" stroke-width="0.8" opacity="0.8"/>
+  <text x="914" y="262" text-anchor="middle" font-family="monospace" font-size="8.5" letter-spacing="0.1em" fill="#818CF8">⚡ AI CAMPAIGN ORCHESTRATOR</text>
+  <text x="914" y="280" text-anchor="middle" font-size="9.5" fill="#728072">Sets discount · Predicts revenue lift</text>
+  <text x="914" y="296" text-anchor="middle" font-size="9.5" fill="#728072">Updates product prices in real-time</text>
+  <text x="914" y="307" text-anchor="middle" font-size="9" fill="#728072">Customers see updated prices instantly ↗</text>
+  <line x1="814" y1="324" x2="1014" y2="324" stroke="#1C201C" stroke-width="0.8"/>
+  <text x="818" y="341" font-size="9.5" fill="#728072">⚡ Auto-approves returns &lt; ₹3,000</text>
+  <text x="818" y="358" font-size="9.5" fill="#728072">Reviews &gt; ₹3,000 with scan evidence</text>
+  <text x="818" y="375" font-size="9.5" fill="#728072">Manages hub inventory directly</text>
+
+  <!-- 5. RAZORPAY -->
+  <rect x="380" y="272" width="240" height="68" rx="8" fill="#090515" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="500" y="295" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="0.12em" fill="#A78BFA">PAYMENT LAYER</text>
+  <text x="500" y="314" text-anchor="middle" font-size="13" font-weight="700" fill="#EDF2ED">Razorpay</text>
+  <text x="500" y="330" text-anchor="middle" font-size="9.5" fill="#728072">Order create · Capture · Webhook · Refund</text>
+
+  <!-- 6. ML / OBJECT GRADING -->
+  <rect x="380" y="388" width="240" height="70" rx="8" fill="#130C00" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="500" y="411" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="0.12em" fill="#FBBF24">ML / OBJECT GRADING</text>
+  <text x="500" y="430" text-anchor="middle" font-size="13" font-weight="700" fill="#EDF2ED">AI Return Scanner</text>
+  <text x="500" y="447" text-anchor="middle" font-size="9.5" fill="#728072">Camera scan · Grade A/B/C · Score 0–100</text>
+
+  <!-- 7. DECISION DIAMOND -->
+  <polygon points="500,483 592,528 500,573 408,528" fill="#101210" stroke="#D0D8D0" stroke-width="1.5"/>
+  <text x="500" y="523" text-anchor="middle" font-size="11" font-weight="700" fill="#EDF2ED">Return</text>
+  <text x="500" y="539" text-anchor="middle" font-size="11" font-weight="700" fill="#EDF2ED">Accepted?</text>
+  <text x="362" y="558" text-anchor="middle" font-family="monospace" font-size="9" fill="#34D399">≤ ₹3,000</text>
+  <text x="638" y="558" text-anchor="middle" font-family="monospace" font-size="9" fill="#F87171">&gt; ₹3,000</text>
+
+  <!-- 8. AUTO APPROVE -->
+  <rect x="55" y="610" width="220" height="70" rx="8" fill="#00130A" stroke="#34D399" stroke-width="1.5"/>
+  <text x="165" y="633" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="0.1em" fill="#34D399">AUTO-APPROVED</text>
+  <text x="165" y="652" text-anchor="middle" font-size="13" font-weight="700" fill="#EDF2ED">Instant Refund</text>
+  <text x="165" y="669" text-anchor="middle" font-size="9.5" fill="#728072">AI verified · No merchant action needed</text>
+
+  <!-- 9. HUB ASSIGNMENT -->
+  <rect x="45" y="728" width="240" height="70" rx="8" fill="#00130A" stroke="#34D399" stroke-width="1.5"/>
+  <text x="165" y="751" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="0.1em" fill="#34D399">HUB ASSIGNMENT</text>
+  <text x="165" y="770" text-anchor="middle" font-size="13" font-weight="700" fill="#EDF2ED">District Local Hub</text>
+  <text x="165" y="787" text-anchor="middle" font-size="9.5" fill="#728072">Stored near buyer · 5% hub discount</text>
+
+  <!-- 10. NEXT BUYER -->
+  <rect x="55" y="846" width="220" height="60" rx="8" fill="#00130A" stroke="#34D399" stroke-width="1.5"/>
+  <text x="165" y="869" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="0.1em" fill="#34D399">CIRCULAR ECONOMY</text>
+  <text x="165" y="888" text-anchor="middle" font-size="12" font-weight="700" fill="#EDF2ED">Available for Next Buyer</text>
+
+  <!-- 11. MERCHANT REVIEW -->
+  <rect x="644" y="610" width="252" height="84" rx="8" fill="#130404" stroke="#F87171" stroke-width="1.5"/>
+  <text x="770" y="633" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="0.1em" fill="#F87171">MERCHANT REVIEW</text>
+  <text x="770" y="652" text-anchor="middle" font-size="13" font-weight="700" fill="#EDF2ED">Manual Verification</text>
+  <text x="770" y="669" text-anchor="middle" font-size="9.5" fill="#728072">Customer photo · AI grade · Score shown</text>
+  <text x="770" y="684" text-anchor="middle" font-size="9.5" fill="#728072">on merchant dashboard for decision</text>
+
+  <!-- 12. APPROVE -->
+  <rect x="622" y="752" width="175" height="62" rx="8" fill="#00130A" stroke="#34D399" stroke-width="1.5"/>
+  <text x="709" y="776" text-anchor="middle" font-size="12" font-weight="700" fill="#34D399">✓  Approved</text>
+  <text x="709" y="794" text-anchor="middle" font-size="9.5" fill="#728072">Refund issued · Item → Hub</text>
+
+  <!-- 13. REJECT -->
+  <rect x="820" y="752" width="175" height="62" rx="8" fill="#130404" stroke="#F87171" stroke-width="1.5"/>
+  <text x="907" y="776" text-anchor="middle" font-size="12" font-weight="700" fill="#F87171">✕  Rejected</text>
+  <text x="907" y="794" text-anchor="middle" font-size="9.5" fill="#728072">No refund · Customer notified</text>
+
+  <!-- 14. HUB (approved >3000) -->
+  <rect x="622" y="862" width="175" height="62" rx="8" fill="#00130A" stroke="#34D399" stroke-width="1.5"/>
+  <text x="709" y="885" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="0.08em" fill="#34D399">DISTRICT HUB</text>
+  <text x="709" y="904" text-anchor="middle" font-size="11" font-weight="600" fill="#EDF2ED">Available for Next Buyer</text>
+
+  <!-- AUDIT TRAIL sidebar -->
+  <rect x="1052" y="388" width="60" height="480" rx="6" fill="#101210" stroke="#444" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="1082" y="628" text-anchor="middle" dominant-baseline="middle"
+    transform="rotate(-90,1082,628)"
+    font-family="monospace" font-size="8.5" letter-spacing="0.12em" fill="#555">
+    AUDIT TRAIL — ALL EVENTS LOGGED
+  </text>
+
+  <!-- ═══ CONNECTIONS ═══ -->
+
+  <!-- Razorpay → Green Credits -->
+  <polyline points="380,306 260,306 260,342 214,342" fill="none" stroke="#C8FF00" stroke-width="1.4" marker-end="url(#a-lime)" opacity="0.85"/>
+  <rect x="263" y="286" width="78" height="26" rx="3" fill="#070908" opacity="0.85"/>
+  <text x="302" y="295" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#C8FF00" opacity="0.9">earn on</text>
+  <text x="302" y="306" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#C8FF00" opacity="0.9">purchase</text>
+
+  <!-- Smart Cart → Green Credits (upsell bonus) -->
+  <polyline points="364,190 214,190 214,292" fill="none" stroke="#C8FF00" stroke-width="1" stroke-dasharray="3,4" marker-end="url(#a-lime)" opacity="0.45"/>
+  <rect x="226" y="217" width="66" height="24" rx="3" fill="#070908" opacity="0.8"/>
+  <text x="259" y="226" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#C8FF00" opacity="0.6">upsell</text>
+  <text x="259" y="237" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#C8FF00" opacity="0.6">bonus</text>
+
+  <!-- Green Credits → Smart Cart (redeem) -->
+  <polyline points="120,292 120,230 364,230" fill="none" stroke="#C8FF00" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#a-lime)" opacity="0.6"/>
+  <rect x="50" y="241" width="62" height="24" rx="3" fill="#070908" opacity="0.85"/>
+  <text x="81" y="250" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#C8FF00" opacity="0.75">redeem</text>
+  <text x="81" y="261" text-anchor="middle" font-family="monospace" font-size="7.5" fill="#C8FF00" opacity="0.75">at checkout</text>
+
+  <!-- Green Credits → Audit Trail -->
+  <line x1="214" y1="360" x2="1052" y2="490" stroke="#3A3A3A" stroke-width="0.9" stroke-dasharray="3,5" opacity="0.5"/>
+
+  <!-- AI Core → Smart Cart -->
+  <line x1="500" y1="116" x2="500" y2="142" stroke="#818CF8" stroke-width="1.5" marker-end="url(#a-indigo)"/>
+
+  <!-- AI Core → Merchant Dashboard -->
+  <polyline points="620,80 914,80 914,80" fill="none" stroke="#818CF8" stroke-width="1.4" stroke-dasharray="5,3" marker-end="url(#a-indigo)" opacity="0.75"/>
+
+  <!-- Customer → Smart Cart -->
+  <line x1="203" y1="185" x2="364" y2="185" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#a-blue)"/>
+
+  <!-- Smart Cart → Merchant Dashboard -->
+  <polyline points="636,185 726,185 726,237 800,237" fill="none" stroke="#60A5FA" stroke-width="1.2" stroke-dasharray="5,3" marker-end="url(#a-blue)" opacity="0.55"/>
+
+  <!-- Campaign loop -->
+  <polyline points="800,285 668,285 668,218 636,218" fill="none" stroke="#818CF8" stroke-width="1.2" stroke-dasharray="4,4" marker-end="url(#a-indigo)" opacity="0.5"/>
+  <rect x="672" y="259" width="82" height="28" rx="4" fill="#070908" opacity="0.9"/>
+  <text x="713" y="270" text-anchor="middle" font-family="monospace" font-size="8" fill="#818CF8" opacity="0.75">campaign</text>
+  <text x="713" y="282" text-anchor="middle" font-family="monospace" font-size="8" fill="#818CF8" opacity="0.75">price loop</text>
+
+  <!-- Smart Cart → Razorpay -->
+  <line x1="500" y1="226" x2="500" y2="272" stroke="#A78BFA" stroke-width="1.5" marker-end="url(#a-purple)"/>
+
+  <!-- Razorpay → ML Grading -->
+  <line x1="500" y1="340" x2="500" y2="388" stroke="#FBBF24" stroke-width="1.5" marker-end="url(#a-amber)"/>
+
+  <!-- ML Grading → Decision Diamond -->
+  <line x1="500" y1="458" x2="500" y2="483" stroke="#D0D8D0" stroke-width="1.5" marker-end="url(#a-white)"/>
+
+  <!-- Diamond → Auto Approve -->
+  <polyline points="408,528 165,528 165,610" fill="none" stroke="#34D399" stroke-width="1.5" marker-end="url(#a-emerald)"/>
+
+  <!-- Diamond → Merchant Review -->
+  <polyline points="592,528 770,528 770,610" fill="none" stroke="#F87171" stroke-width="1.5" marker-end="url(#a-red)"/>
+
+  <!-- Auto Approve → Hub Assignment -->
+  <line x1="165" y1="680" x2="165" y2="728" stroke="#34D399" stroke-width="1.5" marker-end="url(#a-emerald)"/>
+
+  <!-- Hub Assignment → Next Buyer -->
+  <line x1="165" y1="798" x2="165" y2="846" stroke="#34D399" stroke-width="1.5" marker-end="url(#a-emerald)"/>
+
+  <!-- Merchant Review → Approve -->
+  <polyline points="770,694 770,722 709,722 709,752" fill="none" stroke="#34D399" stroke-width="1.5" marker-end="url(#a-emerald)"/>
+
+  <!-- Merchant Review → Reject -->
+  <polyline points="770,694 770,722 907,722 907,752" fill="none" stroke="#F87171" stroke-width="1.5" marker-end="url(#a-red)"/>
+
+  <!-- Approve → Hub -->
+  <line x1="709" y1="814" x2="709" y2="862" stroke="#34D399" stroke-width="1.5" marker-end="url(#a-emerald)"/>
+
+  <!-- Audit Trail dashed connections -->
+  <line x1="620" y1="306" x2="1052" y2="450" stroke="#3A3A3A" stroke-width="0.9" stroke-dasharray="3,5" opacity="0.6"/>
+  <line x1="620" y1="423" x2="1052" y2="530" stroke="#3A3A3A" stroke-width="0.9" stroke-dasharray="3,5" opacity="0.6"/>
+  <line x1="285" y1="680" x2="1052" y2="630" stroke="#3A3A3A" stroke-width="0.9" stroke-dasharray="3,5" opacity="0.5"/>
+  <line x1="895" y1="694" x2="1052" y2="730" stroke="#3A3A3A" stroke-width="0.9" stroke-dasharray="3,5" opacity="0.5"/>
+  <line x1="709" y1="862" x2="1052" y2="810" stroke="#3A3A3A" stroke-width="0.9" stroke-dasharray="3,5" opacity="0.4"/>
+
+  <!-- Section labels -->
+  <text x="165" y="600" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#34D399" opacity="0.6">FAST TRACK</text>
+  <text x="770" y="600" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#F87171" opacity="0.6">REVIEW TRACK</text>
+
+</svg>

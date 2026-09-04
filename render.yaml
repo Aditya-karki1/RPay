@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: district-app
+    runtime: node
+    plan: free
+    buildCommand: npm install --include=dev --prefix district && npm run build --prefix district && npm install --prefix server
+    startCommand: node server/index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: RAZORPAY_KEY_ID
+        sync: false
+      - key: RAZORPAY_KEY_SECRET
+        sync: false
+      - key: RAZORPAY_WEBHOOK_SECRET
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false

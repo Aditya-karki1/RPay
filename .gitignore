@@ -1,0 +1,8 @@
+node_modules/
+district/node_modules/
+server/node_modules/
+district/dist/
+.env
+server/.env
+*.log
+.DS_Store
